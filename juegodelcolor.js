@@ -64,11 +64,11 @@ function setupSquares(){
             var clickedColor = this.style.backgroundColor;
             if (clickedColor === pickedColor){
                 changeColors(clickedColor);
-                message.textContent = "Correcto";
+                message.textContent = "Correct";
                 message.hidden = false;
             }else{
                 this.style.backgroundColor = "black";
-                message.textContent = "Intenta de nuevo";
+                message.textContent = "Try Again";
                 message.hidden = false;
             }
             
@@ -83,7 +83,7 @@ function setupButtons(){
             modeBtns[1].classList.remove("selected");
             this.classList.add("selected");
             
-            this.textContent == "Novato" ? num = 3 : num = 6;
+            this.textContent == "Newbie" ? num = 3 : num = 6;
             reset()
         });
 
