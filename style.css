@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+.page-container{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+#head, #mid, #foot{
+    text-align: center;
+    margin: 0;
+}
+
+#head{
+    background-color: steelblue;
+    color:white;
+}
+
+#mid{
+    color:white;
+    background-color: whitesmoke;
+}
+
+#mid button{
+    border: none;
+    outline: none;
+    font-size: medium;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: steelblue;
+}
+
+#mid button:hover{
+    background-color: steelblue;
+    color:white;
+}
+
+#mid .modeSelected{
+    background-color: steelblue;
+    color:white;
+}
+
+.square{
+    width: 30%;
+    height: 10px;
+    background:purple;
+    padding-top: 20%;
+    float: left;
+    margin:1.66%;
+    border-radius: 15%;
+}
